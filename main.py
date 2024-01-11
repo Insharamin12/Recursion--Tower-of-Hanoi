@@ -6,7 +6,10 @@ rods = {
     'B': [],
     'C': []
 }
-def move():
+def move(n, source, auxiliary, target):
+    # display starting configuration
     print(rods)
+    for i in range(number_of_moves):
+        print(i)
 
 move()
